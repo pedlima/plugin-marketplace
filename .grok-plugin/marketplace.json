@@ -447,6 +447,25 @@
       "homepage": "https://www.pi.security/",
       "keywords": ["pi security", "pi security appsec", "pi security findings", "pi security remediation", "pi security threat modeling", "pi security design review"],
       "domains": ["pi.security", "mcp.pi.security"]
+    },
+    {
+      "name": "aurea77",
+      "description": "Aurea77 athlete-account workflows for sporting events, preparation, recorded registrations and results, equipment, and insights.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/aurea77"
+      },
+      "homepage": "https://aurea77.com",
+      "keywords": [
+        "aurea77",
+        "aurea77 events",
+        "aurea77 equipment"
+      ],
+      "domains": [
+        "aurea77.com",
+        "api.aurea77.com"
+      ]
     }
   ]
 }
