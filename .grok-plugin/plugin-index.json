@@ -140,8 +140,8 @@
       }
     },
     "chrome-devtools": {
-      "sha": "6a7e51fecaaefbea46b89e68892d42c175ee9163",
-      "version": "1.10.1",
+      "sha": "158f85f80d6ef5470cbfcd386a901c7434bc9fd8",
+      "version": "1.11.0",
       "components": {
         "mcpServers": [
           {
@@ -177,6 +177,100 @@
           {
             "name": "troubleshooting",
             "description": "Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_p…"
+          }
+        ]
+      }
+    },
+    "clerk": {
+      "sha": "a02dbd2a933b8929525129a6cb9dcf6ed66d0adf",
+      "version": "1.0.0",
+      "components": {
+        "mcpServers": [
+          {
+            "name": "clerk",
+            "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "clerk",
+            "description": "Clerk authentication router. Use when user asks about Clerk CLI operations,"
+          },
+          {
+            "name": "clerk-android",
+            "description": "Implement Clerk authentication for native Android apps using Kotlin and"
+          },
+          {
+            "name": "clerk-astro-patterns",
+            "description": "'Astro patterns with Clerk — middleware, SSR pages, island components,"
+          },
+          {
+            "name": "clerk-backend-api",
+            "description": "Clerk Backend REST API explorer and executor. Browse tags, inspect endpoint schemas, and execute authenticated requests…"
+          },
+          {
+            "name": "clerk-billing",
+            "description": "Clerk Billing for subscription management - render Clerk's PricingTable"
+          },
+          {
+            "name": "clerk-chrome-extension-patterns",
+            "description": "'Chrome Extension auth with @clerk/chrome-extension -- popup/sidepanel"
+          },
+          {
+            "name": "clerk-cli",
+            "description": "Operate the Clerk CLI (`clerk` binary) for authentication, user/org/session management, impersonation, local webhook te…"
+          },
+          {
+            "name": "clerk-custom-ui",
+            "description": "Custom authentication flows and component appearance - hooks (useSignIn,"
+          },
+          {
+            "name": "clerk-expo",
+            "description": "Add Clerk authentication to Expo and React Native apps using @clerk/expo."
+          },
+          {
+            "name": "clerk-nextjs-patterns",
+            "description": "Advanced Next.js patterns - middleware, Server Actions, caching with"
+          },
+          {
+            "name": "clerk-nuxt-patterns",
+            "description": "'Nuxt 3 auth patterns with @clerk/nuxt - middleware, composables, server"
+          },
+          {
+            "name": "clerk-orgs",
+            "description": "Clerk Organizations for B2B and multi-tenant apps - org switching,"
+          },
+          {
+            "name": "clerk-react-patterns",
+            "description": "'React SPA auth patterns with @clerk/react for Vite/CRA - ClerkProvider"
+          },
+          {
+            "name": "clerk-react-router-patterns",
+            "description": "'React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders,"
+          },
+          {
+            "name": "clerk-setup",
+            "description": "Set up Clerk authentication in any project with the Clerk CLI and official framework quickstarts. Use when adding Clerk…"
+          },
+          {
+            "name": "clerk-swift",
+            "description": "Implement Clerk authentication for native Swift and iOS apps using ClerkKit"
+          },
+          {
+            "name": "clerk-tanstack-patterns",
+            "description": "'TanStack React Start auth patterns with @clerk/tanstack-react-start"
+          },
+          {
+            "name": "clerk-testing",
+            "description": "E2E testing for Clerk apps. Use with Playwright or Cypress for auth flow"
+          },
+          {
+            "name": "clerk-vue-patterns",
+            "description": "'Vue 3 patterns with Clerk — composables (useAuth, useUser,"
+          },
+          {
+            "name": "clerk-webhooks",
+            "description": "Clerk webhooks for real-time events and data syncing. Verify with verifyWebhook"
           }
         ]
       }
@@ -310,8 +404,8 @@
       }
     },
     "figma": {
-      "sha": "2b85b7d27bd6ee124667fcfe88856f6b1f81671a",
-      "version": "2.2.155",
+      "sha": "f2789420e7e8b4e2465dfeb1e12e1fc6a31397e5",
+      "version": "2.2.157",
       "components": {
         "mcpServers": [
           {
@@ -323,6 +417,10 @@
           {
             "name": "figma-code-connect",
             "description": "Creates and maintains Figma Code Connect template files that map Figma components to code snippets. Use when the user m…"
+          },
+          {
+            "name": "figma-code-workflows",
+            "description": "Import or upload local HTML or project files into Figma, choose editable Design frames, runnable Code Layers or standal…"
           },
           {
             "name": "figma-create-new-file",
@@ -355,6 +453,10 @@
           {
             "name": "figma-shaders",
             "description": "**MANDATORY prerequisite** — load this skill before calling `create_shader` or `update_shader`. Use when the user asks…"
+          },
+          {
+            "name": "figma-spec",
+            "description": "This skill is required to create, read, edit, review, or comment on Figma specs. You must read it when working on a PRD…"
           },
           {
             "name": "figma-swiftui",
@@ -744,7 +846,8 @@
       }
     },
     "pstack": {
-      "sha": "1e5c90a4b6f249917bd21fe361b3a2a7deb741b8",
+      "sha": "e5136d82418d2db3165ea1050d17577cd618cc05",
+      "version": "0.15.25",
       "components": {
         "agents": [
           {
@@ -831,7 +934,7 @@
           },
           {
             "name": "principle-attack-the-premise",
-            "description": "Apply when two or more fixes that share one premise have failed the same gate. Take a census of which actors hold the i…"
+            "description": "Apply when two or more fixes that share one premise have failed the same gate. Write the premise down and test it direc…"
           },
           {
             "name": "principle-boundary-discipline",
@@ -859,7 +962,7 @@
           },
           {
             "name": "principle-fix-root-causes",
-            "description": "Apply when debugging. Trace each symptom to its root cause and fix it there; reproduce first, ask why until you reach i…"
+            "description": "Apply when debugging. Trace each symptom back to the first place the system went wrong and fix it there. A guard is a f…"
           },
           {
             "name": "principle-foundational-thinking",
@@ -919,7 +1022,7 @@
           },
           {
             "name": "principle-test-behavior-not-implementation",
-            "description": "Apply when you write, change, or keep a test. Call the code as its users do and assert the exact result they see. Rewri…"
+            "description": "Apply when you write, change, or keep a test. Assert what the code's users can observe, so that the test fails when tha…"
           },
           {
             "name": "principle-type-system-discipline",
@@ -997,8 +1100,8 @@
       }
     },
     "sentry": {
-      "sha": "b0569b6255e7e02a5d9e164d32df3e969688cada",
-      "version": "1.4.3",
+      "sha": "8ab90531580d3b2386a9bd2cd8969a1d1249b8e8",
+      "version": "1.4.4",
       "components": {
         "mcpServers": [
           {
@@ -1061,8 +1164,8 @@
       }
     },
     "stripe": {
-      "sha": "789ef5e0a55ee1d0787a5974660b15bf76dc29b5",
-      "version": "0.9.18",
+      "sha": "4f842d4e9084a941c12f1544006344036e0c28f9",
+      "version": "0.9.19",
       "components": {
         "agents": [
           {
