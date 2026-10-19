@@ -1100,8 +1100,8 @@
       }
     },
     "sentry": {
-      "sha": "8ab90531580d3b2386a9bd2cd8969a1d1249b8e8",
-      "version": "1.4.4",
+      "sha": "2e89d16d6b8a973503af4bc10859767fa8c9de7e",
+      "version": "1.4.5",
       "components": {
         "mcpServers": [
           {
@@ -1164,8 +1164,8 @@
       }
     },
     "stripe": {
-      "sha": "4f842d4e9084a941c12f1544006344036e0c28f9",
-      "version": "0.9.19",
+      "sha": "ad3c5817e5c95fc71c3efcbdece25e7b331bb052",
+      "version": "0.9.20",
       "components": {
         "agents": [
           {
@@ -1234,8 +1234,8 @@
       }
     },
     "supabase": {
-      "sha": "2c6d02d4565babe784103ee4d446a93ae9b24151",
-      "version": "0.1.16",
+      "sha": "016bf5b36670f7ad189ca90223513bd10406392d",
+      "version": "0.1.17",
       "components": {
         "mcpServers": [
           {
