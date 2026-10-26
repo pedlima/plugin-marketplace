@@ -59,6 +59,6 @@ For pre-merge review, complete the Build-specific OAuth configuration first, the
 
 ## Publisher, license and support
 
-This submission is made from the Aurea77 owner's personal GitHub account, `pedlima`. The package retains the existing Aurea77 public-package author, MAIDOT, and its `Proprietary` license designation. This submission does not relicense the service or backend source; the backend source is not included.
+This submission is made from the Aurea77 owner's personal GitHub account, `pedlima`. The package retains the existing Aurea77 public-package author, Pedro Lima, and its `Proprietary` license designation. This submission does not relicense the service or backend source; the backend source is not included.
 
 [Website](https://aurea77.com) | [Support](https://aurea77.com/support) | [Privacy policy](https://aurea77.com/privacy-policy) | [Service terms](https://aurea77.com/terms-conditions)
